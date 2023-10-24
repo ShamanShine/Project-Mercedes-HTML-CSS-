@@ -1,2 +1,2 @@
-# goit-markup-hw-06
+# Training_project-1
 
