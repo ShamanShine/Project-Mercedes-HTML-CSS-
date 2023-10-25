@@ -7,3 +7,65 @@ html {
 *::before {
     box-sizing: inherit;
 }
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #070A1B;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header-nav {}
+
+.logo {}
+
+.list {
+    display: flex;
+}
+
+.list-item {}
+
+.list-link {
+    width: 40px;
+    height: 40px;
+    background-color: #C1A1D2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.list-img {}
