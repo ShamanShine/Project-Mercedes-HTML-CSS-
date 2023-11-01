@@ -61,6 +61,10 @@ ul {
 
 .logo {}
 
+.header-logo {
+    margin-left: 115px;
+}
+
 .list {
     display: flex;
 }
@@ -169,7 +173,7 @@ ul {
 }
 
 .premier-text {
-    margin-bottom: 15px;
+    margin-bottom: 21px;
 }
 
 .premier-inner {
@@ -184,11 +188,61 @@ ul {
     line-height: 120%;
     font-family: 'Corporate-A-Bold';
     color: #F402A2;
-    border: 1px solid;
+    border: 1px solid #F402A2;
     padding: 14px 260px;
     text-transform: uppercase;
+    text-align: center;
+    transition: all .3s;
+}
+
+.premier-btn:hover {
+    color: #53A1CB;
+    border: 1px solid#53A1CB;
+
 }
 
 .premier-img {
     margin-bottom: 20px;
+}
+
+.video {
+    margin-bottom: 150px;
+}
+
+.video-img {
+    margin-bottom: 25px;
+}
+
+.video-btn {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    line-height: 120%;
+    font-family: 'Corporate-A-Bold';
+    color: #F402A2;
+    border: 1px solid #F402A2;
+    padding: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .3s;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.video-btn span {
+    padding-top: 2px;
+}
+
+.video-btn:hover {
+    color: #53A1CB;
+    border: 1px solid#53A1CB;
+}
+
+.video-btn:hover path {
+    fill: #53A1CB;
+}
+
+.video-btn path {
+    transition: all .3s;
 }
