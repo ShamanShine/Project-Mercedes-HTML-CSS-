@@ -31,6 +31,10 @@ a {
     color: inherit;
 }
 
+img {
+    max-width: 100%;
+}
+
 button {
     background-color: transparent;
     border: none;
@@ -331,4 +335,60 @@ ul {
     display: block;
     object-fit: cover;
     margin: 0 auto;
+}
+
+@media (max-width:768px) {
+    .header-logo {
+        margin-left: 0;
+    }
+
+    .logo-img {
+        width: 180px;
+    }
+
+    .list-item+.list-item {
+        margin-left: 15px;
+    }
+
+    .list-link {
+        width: 35px;
+        height: 35px;
+    }
+
+    .title {
+        font-size: 55px;
+    }
+
+    .title-descr {
+        font-size: 18px;
+    }
+
+    .concept {
+        padding-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .concept-text {
+        font-size: 16px;
+    }
+
+    .premier-inner {
+        display: block;
+    }
+
+}
+
+}
+
+@media (max-width:520px) {
+    .header-top {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .list {
+        justify-content: center;
+        padding-top: 10px;
+        width: 100%;
+    }
 }
