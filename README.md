@@ -1,2 +1,2 @@
-#Training_project-1
+#Project_Mercedes (HTML, CSS)
 
